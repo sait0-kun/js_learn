@@ -9,8 +9,15 @@
 // console.log(val2);  // b
 // console.log(other);  // [c, d, e]
 
-const data = { name: "tanaka", age: 50, sex: "男" };
+// const data = { name: "tanaka", age: 50, sex: "男" };
 
-console.log(data.name); // a
-console.log(data.age); // b
-console.log(data.sex); // c
+// console.log(data.name); // a
+// console.log(data.age); // b
+// console.log(data.sex); // c
+
+const data = { name: "tanaka", age: 50, sex: "男" };
+const { name, age, birthday } = data;
+
+console.log(name); // a
+console.log(age); // b
+console.log(birthday); // c
